@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #2b180a;
+  background-image: url(http://www.transparenttextures.com/patterns/wood-pattern.png);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+  position: relative;
+  border: 100px;
+  font-family: 'Blaka Hollow', 'cursive';
+  color: #ede90d;
+  font-size: 100px;
+}
+
+
+.main {
+
+  justify-items: center;
+  justify-content: center;
+}
+
+
+
+.game {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  ;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.container {
+  /* background-color: rgb(142, 165, 169); */
+  background: none;
+  margin: 10px auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.gamecontainer {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.box {
+  border: 2PX solid rgb(247, 242, 242);
+  background: none;
+  color: blanchedalmond;
+  font-size: 9vw;
+}
+
+.box:hover {
+  background-color: rgb(12, 211, 242);
+  cursor: pointer;
+}
+
+.reset button {
+  margin: 10px 0;
+  font-size: 30px;
+  border: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: aqua;
+  font-family: 'Shrikhand', 'cursive';
+
+}
+
+.reset button:hover {
+  background-color: blanchedalmond;
+}
+
+.br-0 {
+  border-right: 0;
+}
+
+.bl-0 {
+  border-left: 0;
+}
+
+.bt-0 {
+  border-top: 0;
+}
+
+.bb-0 {
+  border-bottom: 0;
+}
+
+.info {
+  color: white;
+}
+
+.gifs img {
+  width: 150px;
+  height: 150px;
+  visibility: hidden;
+  display: none
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(238, 222, 222);
+  color: rgb(15, 3, 3);
+  text-align: center;
+}
